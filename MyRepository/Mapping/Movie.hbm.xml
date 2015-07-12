@@ -1,0 +1,15 @@
+﻿<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" 
+                   assembly="MyRepository" 
+                   namespace="MyRepository.Domain">
+  
+  <class name="Movie">
+    <id name="Id">
+      <generator class="identity" />
+    </id>
+    <property name="Title" />
+    <property name="Author" />
+  </class>
+  
+</hibernate-mapping>
+
+
